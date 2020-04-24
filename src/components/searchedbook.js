@@ -2,7 +2,7 @@ import React from "react";
 import API from "../utils/API";
 
 
-export default function SearchItem(props) {
+export default function SearchBook(props) {
 
    function saveBook(props) {
       API.saveBook({
