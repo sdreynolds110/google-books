@@ -1,4 +1,6 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
+
 
 export function Input(props) {
    return (
@@ -10,8 +12,8 @@ export function Input(props) {
 
 export function FormBtn(props) {
    return (
-      <button {...props}  className="col-8 col-md-6 col-sm-8 btn btn-success">
+      <Button {...props}  className="col-8 col-md-6 col-sm-8 btn btn-success">
          {props.children}
-      </button>
+      </Button>
    );
 }

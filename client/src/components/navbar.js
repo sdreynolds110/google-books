@@ -6,7 +6,7 @@ import Home from "./pages/homepage"
 function Navbar() {
     return (
         <div className="navbar">
-            <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link className="nav-link js-scroll-trigger" to="/">Book Search</Link>
